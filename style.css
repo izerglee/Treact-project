@@ -699,8 +699,33 @@ TESTIMONIALS
 .testimonial__container,
 .review__container{
     display: flex;
+    justify-content: center;
+    align-items: center;;
 }
 
 .testimonial__img-container{
     width: 50%;
+}
+
+.testimonial__img{
+    width: 100%;
+}
+
+.testimonial__box{
+    width: 50%;
+}
+
+.testimonial__title{
+    margin: 24px 0;
+}
+
+.testimonial__para{
+    color:#7c8ba1 ;
+    margin-bottom: 36px;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.star__list{
+    color:#f6ad55;
 }

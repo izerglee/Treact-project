@@ -689,3 +689,18 @@ margin-top: 16px;
     font-size: 20px;
     font-weight: 700;
 }
+
+/* 
+
+TESTIMONIALS    
+
+*/
+
+.testimonial__container,
+.review__container{
+    display: flex;
+}
+
+.testimonial__img-container{
+    width: 50%;
+}

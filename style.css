@@ -51,6 +51,16 @@ p{
     color:  rgba(36,62,99,1);
 }
 
+#landing, 
+#features,
+#quality,
+#steps,
+#values,
+#pricing,
+#testimonial{
+    padding: 0 32px;
+}
+
 .btn{
     border: transparent;
     border-radius: 50px;
@@ -703,7 +713,9 @@ TESTIMONIALS
     align-items: center;;
 }
 
-.testimonial__img-container{
+.testimonial__img-container,
+.testimonial__box{
+    
     width: 50%;
 }
 
@@ -711,9 +723,7 @@ TESTIMONIALS
     width: 100%;
 }
 
-.testimonial__box{
-    width: 50%;
-}
+
 
 .testimonial__title{
     margin: 24px 0;
@@ -729,3 +739,33 @@ TESTIMONIALS
 .star__list{
     color:#f6ad55;
 }
+
+.review__title,
+.user__name{
+    font-size: 24px;
+    font-weight: 700;
+    margin: 16px 0;
+}
+
+.review__para{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.review__container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.user__container{
+    display: flex;
+    align-items: center;
+}
+.user__img{
+    border-radius: 100%;
+    max-width: 75px;
+    height: 75px;
+    overflow: hidden;
+}
+
+

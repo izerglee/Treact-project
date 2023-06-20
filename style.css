@@ -710,20 +710,18 @@ TESTIMONIALS
 .review__container{
     display: flex;
     justify-content: center;
-    align-items: center;;
+    align-items: center;
 }
 
 .testimonial__img-container,
 .testimonial__box{
-    
+    margin: 0 32px;
     width: 50%;
 }
 
 .testimonial__img{
     width: 100%;
 }
-
-
 
 .testimonial__title{
     margin: 24px 0;
@@ -760,6 +758,7 @@ TESTIMONIALS
 .user__container{
     display: flex;
     align-items: center;
+    margin-top: 24px;
 }
 .user__img{
     border-radius: 100%;
@@ -768,4 +767,24 @@ TESTIMONIALS
     overflow: hidden;
 }
 
+.user__description{
+    padding-left: 24px;
+}
 
+.user__name{
+    margin: 0;
+    padding-bottom: 2px;
+    font-size: 20px;
+}
+
+.arrow__container{
+ margin-right: 0;   
+}
+
+.btn__arrow{
+    border-radius: 100%;
+    height: 50px;
+    max-width: 50px;
+    color: #6415ff;
+    background-color: rgb(237 242 247);
+}

@@ -753,6 +753,7 @@ TESTIMONIALS
 .review__container{
     display: flex;
     justify-content: space-between;
+    width: 100%;
 }
 
 .user__container{
@@ -809,4 +810,42 @@ TESTIMONIALS
     margin-top: 16px;
     margin-bottom: 16px;
     height: 35px;
+}
+
+/* 
+
+CONTACT 
+
+*/
+
+.contact__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+background-color: #6415ff;
+border-radius: 8px;
+padding: 100px;
+position: relative;
+overflow: hidden;
+}
+
+.contact__btn-con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact__title{
+    color: white;
+    font-size: 32px;
+}
+
+.btn__contact, 
+.btn__start{
+    border-radius: 50px;
+    padding: 20px 40px;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
 }

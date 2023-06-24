@@ -820,13 +820,20 @@ CONTACT
 
 .contact__container{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 background-color: #6415ff;
 border-radius: 8px;
 padding: 100px;
 position: relative;
 overflow: hidden;
+margin: 0 16px;
+}
+
+.contact__content{
+    display: flex;
+    justify-content: space-between;
+    max-width: 960px;
 }
 
 .contact__btn-con{
@@ -848,4 +855,9 @@ overflow: hidden;
     border: none;
     font-size: 16px;
     font-weight: 600;
+    
+}
+
+.btn__start{
+    margin-right: 32px;
 }

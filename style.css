@@ -850,14 +850,38 @@ margin: 0 16px;
 .btn__contact, 
 .btn__start{
     border-radius: 50px;
-    padding: 20px 40px;
-    color: white;
+    padding: 12px 0px;
     border: none;
-    font-size: 16px;
+    color: white;    
     font-weight: 600;
-    
+    font-size: 18px;
+    transition: 300ms all ease;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 .btn__start{
     margin-right: 32px;
+    background-color: rgb(245 101 101);
+    padding: 20px 40px;
+    margin: 0px 32px 0px 0px;
+}
+
+.btn__start:hover{
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.25);
+    background-color:rgb(229 62 62);
+}
+
+.btn__contact{
+    background-color: #6415ff;
+    border: 1px solid rgb(160 174 192);
+    padding: 20px 40px;
+}
+
+.btn__contact:hover{
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.25);
+    background-color: white;
+    color: #6415ff;
 }

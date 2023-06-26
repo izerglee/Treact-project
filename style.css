@@ -845,6 +845,7 @@ margin: 0 16px;
 .contact__title{
     color: white;
     font-size: 32px;
+    font-weight: 700;
 }
 
 .btn__contact, 

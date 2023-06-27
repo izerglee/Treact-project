@@ -893,6 +893,7 @@ Footer
 */
 .footer__container{
 padding: 96px 0;
+background-color: #6415ff;
 }
 
 .footer__wrapper{
@@ -913,9 +914,10 @@ padding: 96px 0;
 
 .footer__title-link{
     color: white;
+    margin-bottom: 16px;
 }
 
 .footer__link{
-padding-top: 100px;
-color: white;
+    margin-top: 4px;
+    color: white;
 }

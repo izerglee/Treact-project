@@ -93,7 +93,6 @@ p{
 
 .container{
     padding: 120px 0;
-    
 }
 
 .quality__container,
@@ -892,10 +891,31 @@ margin: 0 16px;
 Footer
 
 */
+.footer__container{
+padding: 96px 0;
+}
+
+.footer__wrapper{
+    background-color: #6415ff;
+    width: 100%;
+}
 
 .links{
     display: flex;
     flex-wrap: wrap;
 }
 
+.link{
+    display: flex;
+    flex-direction: column;
+    width: calc(100%/5);
+}
 
+.footer__title-link{
+    color: white;
+}
+
+.footer__link{
+padding-top: 100px;
+color: white;
+}

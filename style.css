@@ -915,9 +915,20 @@ background-color: #6415ff;
 .footer__title-link{
     color: white;
     margin-bottom: 16px;
+    font-size: 20px;
+letter-spacing: normal;
 }
 
-.footer__link{
-    margin-top: 4px;
+.footer__link,
+.footer__link-info{
+    margin-top: 8px;
     color: white;
 }
+
+.horizontal{
+   margin: 64px 0;
+   height: 1px;
+   background-color: #793bf5;
+}
+
+

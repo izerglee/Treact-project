@@ -894,6 +894,7 @@ Footer
 .footer__container{
 padding: 96px 0;
 background-color: #6415ff;
+margin-top: 96px;
 }
 
 .footer__wrapper{
@@ -931,6 +932,16 @@ letter-spacing: normal;
    background-color: #793bf5;
 }
 
+.footer__info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__treact{
+    display: flex;
+}
+
 .footer__logo-light{
     width: 32px;
     height: 32px;
@@ -938,8 +949,9 @@ letter-spacing: normal;
 
 .footer__logo-name{
     color: white;
-    font-size: 32px;
-    font-weight: 700;
+    font-size: 24px;
+    font-weight: 800;
+    margin-left: 16px;
 }
 
 .copyright{

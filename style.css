@@ -931,4 +931,32 @@ letter-spacing: normal;
    background-color: #793bf5;
 }
 
+.footer__logo-light{
+    width: 32px;
+    height: 32px;
+}
+
+.footer__logo-name{
+    color: white;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.copyright{
+    color: #CBD5E0;
+}
+
+
+.social{
+    background-color: #fff;
+    color: #243363;
+    height: 36px;
+    width: 36px;
+    border-radius: 100%;
+    cursor: pointer;
+    display: inline-block;
+    margin: 8px;
+    padding: 7px;
+    text-align: center;
+}
 

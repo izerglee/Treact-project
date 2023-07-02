@@ -11,6 +11,7 @@ a{
 text-decoration: none;
 font-weight: 600;
 color:rgba(36,62,99,1);
+position: relative;
 }
 
 a, button:hover{
@@ -19,7 +20,10 @@ a, button:hover{
 
 li{
     list-style-type: none;
+    position: relative;
 }
+
+
 
 .purple{
 color: #6415ff;
@@ -188,7 +192,7 @@ margin-left: 24px;
     background-color: #6415ff;
     width: 100%;
     opacity: 0;
-    bottom: -8px;
+    bottom: -3px;
     left: 0;
     transition: 600ms;
 }
@@ -871,6 +875,7 @@ margin: 0 16px;
     cursor: pointer;
     box-shadow: rgba(0, 0, 0, 0.25);
     background-color:rgb(229 62 62);
+    text-decoration: none;
 }
 
 .btn__contact{
@@ -884,6 +889,7 @@ margin: 0 16px;
     box-shadow: rgba(0, 0, 0, 0.25);
     background-color: white;
     color: #6415ff;
+    text-decoration: none;
 }
 
 /* 
@@ -892,9 +898,8 @@ Footer
 
 */
 .footer__container{
-padding: 96px 0;
 background-color: #6415ff;
-margin-top: 96px;
+margin-top: 48px;
 }
 
 .footer__wrapper{
@@ -911,12 +916,26 @@ margin-top: 96px;
     display: flex;
     flex-direction: column;
     width: calc(100%/5);
+    justify-content: center;
+    text-align: left;
+}
+
+.footer__hover-effect::after{
+    content: "";
+    position: absolute;
+    height: 3px;
+    background-color:white;
+    width: 100%;
+    opacity: 0;
+    bottom: -3px;
+    left: 0;
+    transition: 600ms;
 }
 
 .footer__title-link{
     color: white;
     margin-bottom: 16px;
-    font-size: 20px;
+    font-size: 16px;
 letter-spacing: normal;
 }
 
@@ -970,5 +989,10 @@ letter-spacing: normal;
     margin: 8px;
     padding: 7px;
     text-align: center;
+    transition: all 300ms ease-out;
 }
 
+.social:hover{
+    filter: brightness(85%); 
+    transition: all 300ms ease;
+}

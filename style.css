@@ -1077,4 +1077,15 @@ letter-spacing: normal;
     .nav__links{
         display: none;
     }
+
+    .header__container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h2{
+      font-size: 36px;  
+      white-space: nowrap;
+    }
 }

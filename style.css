@@ -1078,14 +1078,40 @@ letter-spacing: normal;
         display: none;
     }
 
-    .header__container{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
 
     h2{
-      font-size: 36px;  
-      white-space: nowrap;
+      font-size: 30px;  
+    }
+
+    .header__para{
+        font-size: 16px;
+    }
+
+    /* 
+
+    HEADER
+    
+    */
+
+.header__container{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.header__description{
+    width: 100%;
+    margin: 0 auto;
+    max-width: 550px;
+    text-align: center;
+}
+
+.customer__img--container{
+    width: 100%;
+    max-width: 550px;
+}
+    .header__title{
+
     }
 }

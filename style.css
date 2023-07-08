@@ -549,6 +549,9 @@ VALUES
 
 .value__img-container{
     width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .value__img{
@@ -628,7 +631,7 @@ PRICING
 .plan{
     display: flex;
     flex-direction: column;
-    width: calc(100%/3);
+    width: calc(30%);
 position: relative;
 max-width: 360px;
 margin-left: 8px;
@@ -1071,6 +1074,8 @@ letter-spacing: normal;
 }
 
 
+
+
 @media (max-width:1024px) {
     .btn__menu{
         display: block;
@@ -1143,13 +1148,55 @@ letter-spacing: normal;
     }
 
     .services{
-        max-width: 760px;
+        max-width: 768px;
        margin: 0 auto;
     }
 
     .service{
     width: 50%;
     }
+
+/* 
+
+QUALITY 
+
+*/
+
+    .quality__title{
+        font-size: 36px;
+    }
+
+/* 
+
+VALUES
+
+*/
+
+.principles__container{
+display: flex;
+flex-direction: column;
+}
+
+.principles__big-box{
+    width: 75%;
+}
+
+/* 
+
+    PRICING
+
+*/
+
+.plans{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.plan{
+    width: 100%;
+    margin: 36px 0;
+}
 
 
 }

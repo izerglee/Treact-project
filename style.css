@@ -832,14 +832,12 @@ TESTIMONIALS
 .review__container{
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    margin-top: 24px;
 }
 
 .user__container{
     display: flex;
     align-items: center;
-    margin-top: 24px;
-    
 }
 .user__img{
     border-radius: 100%;
@@ -981,6 +979,7 @@ margin-top: 48px;
 .footer__wrapper{
     background-color: #6415ff;
     width: 100%;
+    padding: 0 24px;
 }
 
 .links{
@@ -1198,5 +1197,42 @@ flex-direction: column;
     margin: 36px 0;
 }
 
+/* 
+
+CONTACT
+
+*/
+
+.contact__container{
+    padding: 100px;
+}
+
+.contact__content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact__title-con{
+    width: 70%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact__btn-con{
+    margin-top: 20px;
+}
+
+.btn__start{
+    box-shadow: 4px 6px 8px rgba(0, 0, 0, 0.15); 
+}
+}
+
+@media (max-width:768px){
+
+.row2{
+   display: flex;
+   flex-direction: column-reverse; 
+}
 
 }

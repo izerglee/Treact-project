@@ -1230,9 +1230,36 @@ CONTACT
 
 @media (max-width:768px){
 
-.row2{
-   display: flex;
+.quality__container, 
+.value__container
+{
+    display: flex;
    flex-direction: column-reverse; 
+}
+
+p{
+    text-align: center;
+    max-width: 448px;
+}
+
+/* 
+
+FEATURES
+
+*/
+
+.services{
+    max-width: 448px;
+    display: flex;
+    flex-direction: column;
+}
+
+.service{
+width: 100%;
+}
+
+.service__para{
+    text-align: left;
 }
 
 }

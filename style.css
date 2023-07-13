@@ -1110,6 +1110,10 @@ letter-spacing: normal;
     text-align: center;
 }
 
+.header__para{
+    margin: 24px 0;
+}
+
 .customer__img--container{
     width: 100%;
     max-width: 550px;
@@ -1127,6 +1131,7 @@ letter-spacing: normal;
     .email{
         width: 80%;
         margin: 0 auto;
+        padding-left: 16px;
     }
 
     .customer__container{
@@ -1235,11 +1240,36 @@ CONTACT
 {
     display: flex;
    flex-direction: column-reverse; 
+   align-items: center;
+}
+
+.steps__box,
+.testimonial__container
+{
+display: flex;
+flex-direction: column;
+align-items: center;
 }
 
 p{
     text-align: center;
     max-width: 448px;
+}
+
+/* 
+
+HEADER
+
+*/
+
+.header__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__para{
+    margin: 24px 0;
 }
 
 /* 
@@ -1261,5 +1291,58 @@ width: 100%;
 .service__para{
     text-align: left;
 }
+
+/* 
+
+QUALITY
+
+*/
+
+.quality__description{
+    text-align: center;
+}
+
+.quality__img-container,
+.quality__description
+{
+    width: 75%;
+}
+
+.quality__description{
+    margin-top: 56px;
+}
+
+.btn__quality{
+    margin-top: 32px;
+}
+
+/* 
+
+STEPS
+
+*/
+
+.steps__img-container,
+.steps__description
+{
+    width: 75%;
+}
+
+.steps__description{
+    text-align: center;
+    padding: 0;
+    margin-top: 56px;
+}
+
+.step__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.step__description-con{
+    margin: 0;
+}
+
 
 }

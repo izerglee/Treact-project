@@ -1268,9 +1268,11 @@ HEADER
     align-items: center;
 }
 
-.header__para{
-    margin: 24px 0;
+.header__para,
+.customer__para{
+    margin: 16px auto;
 }
+
 
 /* 
 
@@ -1344,5 +1346,32 @@ STEPS
     margin: 0;
 }
 
+/* 
+
+VALUES
+
+*/  
+
+.value__img-container{
+    width: 75%;
+}
+
+.value__box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 56px;
+    width: 100%;
+    max-width: 448px;
+}
+
+.value__title{
+    text-align: center;
+    margin: 16px 0;
+}
+
+.value__para.text{
+    font-size: 16px;
+}
 
 }

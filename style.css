@@ -1374,4 +1374,25 @@ VALUES
     font-size: 16px;
 }
 
+.principles__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.principles__box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*
+
+PRICING
+
+*/
+
+.price__text{
+    max-width: 448px;
+}
 }
